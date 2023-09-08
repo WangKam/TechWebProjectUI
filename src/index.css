@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Titillium Web", sans-serif;
+}
+/*
+@font-face {
+	font-family: "Nothing Font (5X7)", sans-serif;
+	src: local("Nothing Font (5X7)"),
+		url("./fonts/nothing-font.ttf") format("truetype");
+	
+}
+*/
+:root {
+	--mainColor: #5783db;
+	--mainColorLight: #4681f4;
+	--secondaryColor: #db2b39;
+	--textColor: #eee;
+	--overlay: #0000003d;
+	--overlay2: #ffffff47;
+	--overlay3: #00000080;
+	--danger: #f03529;
+
+	--bgMain1: #fbfbfb;
+	--bgMain2: #ffffff;
+	--bgMain3: #efefef;
+	--bgMain4: #e1f1f7;
+	--bgMain5: #fff;
+	--bgMain6: #e6f5fc;
+	--bgMain7: #f4f4f4;
+	--bgRenderAsset: #fbfbfb;
+
+	--bgInput: #f4f4f4;
+	--bgInputFocus: #ffffff;
+	--bgInputSelected: #ffffff;
+	--bg-search-input-focus: #fff;
+	--bgInput-disabled: #f4f4f4;
+
+	--bgBtn_disabled: #f4f4f4;
+	--colorBtn_disabled: #c4c4c4;
+	--borderBtn: #e6e6e6;
+
+	--bg_playbar: #d2d9db;
+
+	--txt1: #000000;
+	--txt2: #595959;
+	--txt3: #1b2630;
+	--txt4: #999999;
+	--txt5: #e6f5fc;
+	--txt6: #595959;
+	--txt7: #595959;
+	--txt8: #004280;
+	--txt9: #009bdb;
+	--txt10: #004280;
+	--txt11: #c4c4c4;
+	--txt12: #c4c4c4;
+	--txt13: #004380;
+	--txt14: #1b2630;
+
+	--shadow1: #009bdb33;
+	--shadow2: rgba(27, 38, 48, 0.3);
+
+	--primary: #009bdb;
+	--primary-opc: #0099db5a;
+	--secondary: #004280;
+	--default: #f2f2f2;
+	--tertiary: #1b2630;
+
+	--hover1: #009bdb1a;
+	--hover2: #19446c;
+	--hover3: #c4c4c4;
+
+	--border: #e6e6e6;
+	--border2: #d2d9db;
+	--border3: #e1e1e1;
+	--border4: #d2d9db;
+
+	--modal-bg: #ffffff;
+	--icon-hover-bg: #1b26301a;
+	--icon-disable: #1b263033;
+	--empty-content-bg: #f4f4f480;
+
+	--bg-tooltip: #1b2630;
+	--shadow-tooltip: 0px 1px 3px rgba(27, 38, 48, 0.7);
+	--text-tooltip: #ffffff;
+
+	--shadow: rgba(27, 38, 48, 0.25);
+
+	--hover: rgba(27, 38, 48, 0.1);
+
+	--drop-down-setting-item-hover-bg: rgba(27, 38, 48, 0.1);
+	--drop-down-border-color: #d2d9db;
+	--error-input-color: #f03529;
+	--notice-error-color: #f03529;
+	--danger: #e62618;
+	--placeholder-color: #c4c4c4;
+	--disable-btn-bg: #f4f4f4;
+	--disable-btn-color: #c4c4c4;
+	--disable-btn-border: #e6e6e6;
+
+	--table-checkbox: #c4c4c4;
+}
+
+a {
+	text-decoration: none;
+}
+
+.text-white {
+	color: white;
+}
